@@ -8,6 +8,7 @@ router.get("/login", login);
 router.get("/logout", logout);
 
 router.get("/refresh-token", refreshToken);
+// router.get("/profile", getProfile);
 
 export default router;
 
